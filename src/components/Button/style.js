@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const Container = styled.button`
     box-sizing: border-box;
-    margin: 8px; padding: 12px;
+    margin: 8px; padding: 4px 12px;
     width: 128px;
 
     border: none;
