@@ -5,7 +5,10 @@ export const GlobalStyles = createGlobalStyle`
     @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
     
     // text settings
-    div#root { font-family: 'Ubuntu', sans-serif; }
+    div#root {
+        font-family: 'Ubuntu', sans-serif;
+        color: #0D1B2A;
+    }
 
     h1 {
         font-size: 40px;
@@ -26,4 +29,6 @@ export const GlobalStyles = createGlobalStyle`
         font-size: 16px;
         font-weight: 300;
     }
+
+    span { font-size: 14px; }
 `
