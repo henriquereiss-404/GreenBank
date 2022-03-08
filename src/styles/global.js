@@ -31,4 +31,9 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     span { font-size: 14px; }
+
+    a {
+        text-decoration: none;
+        color: #706C61;
+    }
 `
