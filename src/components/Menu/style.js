@@ -27,4 +27,6 @@ export const Container = styled.ul`
         width: 8px; height: 100%;
         border-bottom: 2px solid #0AF7A7;
     }
+
+    @media screen and (max-width: 768px) { display: none; }
 `
