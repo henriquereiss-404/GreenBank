@@ -11,4 +11,9 @@ export const Container = styled.article`
     & div { padding: 16px; }
     & div p { margin: 8px 0; }
     & div a { color: #fff; text-decoration: underline;}
+
+    @media screen and (max-width: 425px) {
+        width: 100%; max-width: 232px;
+        height: auto;
+    }
 `

@@ -15,6 +15,22 @@ export const Container = styled.article`
 
     & > div { display: flex; }
     & > div > p { text-align: justify; }
+
+    @media screen and (max-width: 768px) {
+        width: auto; max-width: 525px;
+        
+        & > div:first-child {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        & > div:first-child > div{ margin: 0; }
+
+        & > div:first-child > p {
+            margin-top: 16px;
+            max-width: 414px;
+        }
+    }
 `
 
 export const UserData = styled.div`

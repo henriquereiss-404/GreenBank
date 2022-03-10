@@ -18,4 +18,8 @@ export const Container = styled.article`
 
     & div h3 { text-align: center; margin: 24px 0 8px; }
     & div p { text-align: justify; }
+
+    @media screen and (max-width: 425px) {
+        width: auto; max-width: 248px;
+    }
 `
