@@ -17,4 +17,23 @@ export const Header = styled.header`
     & section div p { margin: 16px 8px; text-align: justify; }
 
     & section img { width: 360px; }
+
+    @media screen and (max-width: 768px) {
+        & section {
+            flex-direction: column-reverse;
+            justify-content: center;
+        }
+        
+        & section div {
+            width: auto; max-width: 414px;
+            padding: 0 16px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        & section div h1 { text-align: center; }
+        
+        & section img { width: 200px; }
+    }
 `
