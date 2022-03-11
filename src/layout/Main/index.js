@@ -29,7 +29,7 @@ export default function () {
                 <FontAwesomeIcon icon={faAngleDown}/>
             </CopySection>
             
-            <AboutUs>
+            <AboutUs id='about-us'>
                 <div>
                     <h1>Somo o banco digital que se importa</h1>
                     <p>
@@ -39,11 +39,11 @@ export default function () {
                 <img src={illustration_url}/>
             </AboutUs>
             
-            <DepoimentSection>
+            <DepoimentSection id='depoiments'>
                 <Depoiment/>
             </DepoimentSection>
 
-            <ArticleSection>
+            <ArticleSection id='articles'>
                 <h1>Veja nossos últimos artigos</h1>
                 <div>
                     <Article/>

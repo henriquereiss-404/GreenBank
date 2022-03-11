@@ -38,11 +38,13 @@ export const BenefitsContainer = styled.div`
 `
 
 export const AboutUs = styled.div`
-    margin: 192px auto;
+    margin: 0 auto;
+    height: 80vh;
     max-width: 1024px;
 
     display: flex;
     flex-direction: row-reverse;
+    align-items: center;
 
     & p { margin-top: 32px; text-align: justify; }
 
@@ -59,14 +61,24 @@ export const AboutUs = styled.div`
 `
 
 export const DepoimentSection = styled.section`
+    height: 80vh;
+
+    display: flex;
+    align-items: center;
+
     & article { margin: 0 auto; }
 
     @media screen and (max-width: 768px) { padding: 0 16px; }
 `
 
 export const ArticleSection = styled.div`
-    margin: 192px auto;
+    margin: 0 auto;
+    height: 80vh;
     max-width: 1024px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     
     h1 { text-align: center; }
 

@@ -5,9 +5,9 @@ export default function () {
     return(
         <Container>
             <li><a href='#' className='active'>Home</a></li>
-            <li><a href='#'>Sobre nós</a></li>
-            <li><a href='#'>Depoimentos</a></li>
-            <li><a href='#'>Artigos</a></li>
+            <li><a href='#about-us'>Sobre nós</a></li>
+            <li><a href='#depoiments'>Depoimentos</a></li>
+            <li><a href='#articles'>Artigos</a></li>
         </Container>
     )
 }

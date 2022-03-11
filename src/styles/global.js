@@ -4,6 +4,9 @@ export const GlobalStyles = createGlobalStyle`
     // font
     @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
     
+    // scroll behavior
+    html { scroll-behavior: smooth; }
+
     // text settings
     div#root {
         font-family: 'Ubuntu', sans-serif;
