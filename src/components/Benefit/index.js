@@ -5,7 +5,7 @@ import { faHeart } from '@fortawesome/free-solid-svg-icons'
 
 export default function () {
     return (
-        <Container>
+        <Container className='benefit-reveal'>
             <FontAwesomeIcon icon={faHeart}/>
             <div>
                 <h3>Title</h3>

@@ -1,12 +1,11 @@
 import styled from "styled-components"
 
 export const Main = styled.main`
-    & > svg { width: 24px;}
 `
 
 export const CopySection = styled.section`
     padding: 64px;
-
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,10 +13,11 @@ export const CopySection = styled.section`
     text-align: center;
     background-color: #0D1B2A;
     color: #fff;
-
+    
     & > div { max-width: 1024px; padding: 8px; }
     & > div:first-child p { margin-top: 16px; }
-
+    & > span { width: 24px;}
+    
     @media screen and (max-width: 768px) {
         & > div:first-child { max-width: 414px; }
         & > div:first-child p { text-align: justify; }

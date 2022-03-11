@@ -26,17 +26,19 @@ export default function () {
                     <Benefit/>
                     <Benefit/>
                 </BenefitsContainer>
-                <FontAwesomeIcon icon={faAngleDown}/>
+                <span className='arrow-reveal'>
+                    <FontAwesomeIcon icon={faAngleDown}/>
+                </span>
             </CopySection>
             
             <AboutUs id='about-us'>
-                <div>
+                <div className='reveal-right'>
                     <h1>Somo o banco digital que se importa</h1>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec semper augue. Nullam nec nunc ex. Duis neque orci, fermentum eget ornare ut, mollis nec quam. Pellentesque faucibus diam in vulputate tincidunt. Nullam porttitor justo et sodales auctor.<br/><br/>Duis neque orci, fermentum eget ornare ut, mollis nec quam. Pellentesque faucibus diam in vulputate tincidunt. Nullam porttitor justo et sodales auctor.
                     </p>
                 </div>
-                <img src={illustration_url}/>
+                <img src={illustration_url} className='reveal-left'/>
             </AboutUs>
             
             <DepoimentSection id='depoiments'>
@@ -44,8 +46,8 @@ export default function () {
             </DepoimentSection>
 
             <ArticleSection id='articles'>
-                <h1>Veja nossos últimos artigos</h1>
-                <div>
+                <h1 className='reveal-top'>Veja nossos últimos artigos</h1>
+                <div className='reveal-top'>
                     <Article/>
                     <Article/>
                     <Article/>
